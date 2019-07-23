@@ -1,7 +1,7 @@
 from django.db import models
 # Create your models here.
 
-
+# This is just a commit
 class Book(models.Model):
     name = models.CharField(max_length=250)
     isbn = models.CharField(max_length=13)
