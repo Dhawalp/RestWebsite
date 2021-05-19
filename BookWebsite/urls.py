@@ -25,6 +25,7 @@ admin.autodiscover()
 routers = routers.DefaultRouter()
 routers.register(r'books', views.BookApiView)
 
+# URL paths given here.
 urlpatterns = [
     url(r'admin/', admin.site.urls),
     url(r'', include(routers.urls)),
